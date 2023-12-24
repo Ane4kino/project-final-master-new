@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${JDBC_URL:jdbc:postgresql://localhost:5432/jira}
+    username: ${DATABASE_USERNAME:jira}
+    password: ${DATABASE_PASSWORD:JiraRush}
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+    host: smtp.gmail.com
+    username: ${MAIL_USERNAME:jira4jr@gmail.com}
+    password: ${MAIL_PASSWORD:zdfzsrqvgimldzyj}
+    port: 587
