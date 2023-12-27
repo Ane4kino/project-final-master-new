@@ -27,8 +27,10 @@
 - https://habr.com/ru/articles/259055/
 
 Список выполненных задач:
+Список выполненных задач:
 1. Understand the project structure
 2. Refactor the com.javarush.jira.bugtracking.attachment.FileUtil#upload method so that it uses a modern approach to working with the file system.
 3. Delete social networks: vk, yandex
 4. bring sensitive information of variables into the environment
+5. Write tests for all public methods of the ProfileRestController controller
 ...
